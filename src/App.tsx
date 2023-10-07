@@ -1,12 +1,12 @@
-import MainLayout from "./layouts/MainLayout"
+import React from "react";
+import MainLayout from "./layouts/MainLayout";
 
-function App() {
-
+const App: React.FC = () => {
   return (
     <>
-    <MainLayout></MainLayout>
+      <MainLayout></MainLayout>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
